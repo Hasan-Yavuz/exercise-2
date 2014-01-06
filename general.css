@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Responsive Setup*/
+@-moz-viewpoirt{ width: device-width; scale: 1;}
+@-ms-viewpoirt{ width: device-width; scale: 1;}
+@-o-viewpoirt{ width: device-width; scale: 1;}
+@-webkit-viewpoirt{ width: device-width; scale: 1;}
+@viewpoirt{ width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;	
+	-ms-text-size-adjust: 100%;	
+	-o-text-size-adjust: 100%;	
+	-webkit-text-size-adjust: 100%;	
+	text-size-adjust: 100%;	
+}
+
+/*Css*/
+
+html, body{
+	width: 100%;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+
+img{
+	width: 100%;
+	padding: inherit;
+}
+
+nav ul {
+	position:absolute;
+	width: 100%;
+	top: 14rem;
+	height: 3rem;
+	list-style-type: none;
+	background-color: #888;
+	text-align:center
+}
+
+nav li {
+	display: inline;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	display: inline-block;
+	height: 3rem;
+	margin: 0 2%;
+	padding: 1rem 3%;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+	background-color:#666;
+}
+
+nav .selected {
+	background-color: #666;
+}
+
+
+h2 {
+		
+	color: #666;
+}
